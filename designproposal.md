@@ -37,7 +37,7 @@ resource handling, and efficient data storage mechanisms.
 
 # 3. API Specification
 
-## DynamicArray`<T>`{=html}
+## DynamicArray`<T>`
 
   ---------------------------------------------------------------------------
   Category                Methods                     Complexity
@@ -178,7 +178,7 @@ memory leaks
 
 # Internal Representation
 
-## DynamicArray`<T>`{=html}
+## `DynamicArray<T>`
 
 Uses contiguous heap memory where elements are stored sequentially.
 Maintains:
@@ -189,7 +189,7 @@ Maintains:
 
 for efficient resizing.
 
-## LinkedList`<T>`{=html}
+## `LinkedList<T>`
 
 Uses node-based heap allocation where every node contains:
 
